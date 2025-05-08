@@ -1,0 +1,20 @@
+
+
+
+train: U:/xucheng/yolov8/ultralytics-main/ultralytics/dataset/HIT_UAV_downsample/images/train2017
+val: U:/xucheng/yolov8/ultralytics-main/ultralytics/dataset/HIT_UAV_downsample/images/val2017
+test: U:/xucheng/yolov8/ultralytics-main/ultralytics/dataset/HIT_UAV_downsample/images/test2017
+
+
+
+# number of classes
+nc: 5
+
+# class names
+names: ["Person", "Car", "Bicycle", "OtherVehicle", "DontCare"]
+
+# Print classes
+# with open('data/coco.yaml') as f:
+#   d = yaml.load(f, Loader=yaml.FullLoader)  # dict
+#   for i, x in enumerate(d['names']):
+#     print(i, x)
